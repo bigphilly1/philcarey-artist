@@ -11,7 +11,8 @@ export default function Home() {
     <>
       <Head>
         <title>Phil Carey, Artist, Sydney</title>
-        <meta name="description" content="Original paintings and prints by Sydney artist Phil Carey. Observational work rooted in Australian landscapes and harbours." />
+        <meta name="description" content="Original acrylic paintings and quality prints by Sydney artist Phil Carey. 
+Australian landscapes, Sydney Harbour, and coastal scenes available to buy online." />
         <meta property="og:title" content="Phil Carey, Artist" />
         <meta property="og:description" content="Original paintings and prints. Sydney, Australia." />
       </Head>

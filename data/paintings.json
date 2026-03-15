@@ -7,7 +7,7 @@
     "price": 900,
     "printPrice": 180,
     "status": "available",
-    "hero": true,
+    "hero": false,
     "image": "/images/sydney-harbour-bridge.jpg",
     "description": "The harbour in early morning light. There is something about the way Sydney holds its breath just before the day begins.",
     "category": "Sydney"
@@ -103,4 +103,17 @@
     "description": "The southern headland of Manly. Rugged, ancient, and entirely Sydney.",
     "category": "Sydney"
   }
+  ,{
+  "slug": "opera-house-emerald-city",
+  "title": "Opera House, Emerald City",
+  "medium": "Acrylic on canvas",
+  "dimensions": "50 x 40 cm / 20 x 16 in",
+  "price": 900,
+  "printPrice": 180,
+  "status": "available",
+  "hero": true,
+  "image": "/images/opera-house-emerald-city.jpg",
+  "description": "Sydney from the water, the way it sits in your memory. The Opera House rising out of a green harbour, the city humming behind it.",
+  "category": "Sydney"
+}
 ]

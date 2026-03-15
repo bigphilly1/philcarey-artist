@@ -34,14 +34,14 @@ export default function Nav() {
 
   const linkStyle = (path) => ({
     fontFamily: 'var(--font-body)',
-    fontSize: '0.8rem',
-    fontWeight: 400,
-    letterSpacing: '0.12em',
+    fontSize: '0.75rem',
+    fontWeight: 500,
+    letterSpacing: '0.14em',
     textTransform: 'uppercase',
-    color: router.pathname === path ? 'var(--accent)' : 'var(--text)',
+    color: router.pathname === path ? 'var(--accent-light)' : '#D4C4B0',
     transition: 'color 0.2s ease',
     padding: '0.25rem 0',
-    borderBottom: router.pathname === path ? '1px solid var(--accent)' : '1px solid transparent',
+    borderBottom: router.pathname === path ? '1px solid var(--accent-light)' : '1px solid transparent',
   })
 
   return (
@@ -49,12 +49,12 @@ export default function Nav() {
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%' }}>
         
         {/* Logo */}
-        <Link href="/" style={{ fontFamily: 'var(--font-display)', fontSize: '1.4rem', fontWeight: 400, letterSpacing: '0.02em', color: 'var(--text)' }}>
+        <Link href="/" style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', fontWeight: 400, letterSpacing: '0.02em', color: '#E8DCD0', fontWeight: 500 }}>
           Phil Carey
         </Link>
 
         {/* Desktop Links */}
-        <div style={{ display: 'flex', gap: '2.5rem', alignItems: 'center' }} className="desktop-nav">
+        <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }} className="desktop-nav">
           <Link href="/" style={linkStyle('/')}>Works</Link>
           <Link href="/about" style={linkStyle('/about')}>About</Link>
           <Link href="/contact" style={linkStyle('/contact')}>Contact</Link>
@@ -87,9 +87,9 @@ export default function Nav() {
           flexDirection: 'column',
           gap: '1.5rem',
         }}>
-          <Link href="/" style={{ ...linkStyle('/'), fontSize: '1rem' }}>Works</Link>
-          <Link href="/about" style={{ ...linkStyle('/about'), fontSize: '1rem' }}>About</Link>
-          <Link href="/contact" style={{ ...linkStyle('/contact'), fontSize: '1rem' }}>Contact</Link>
+          <Link href="/" style={{ ...linkStyle('/'), fontSize: '0.95rem' }}>Works</Link>
+          <Link href="/about" style={{ ...linkStyle('/about'), fontSize: '0.95rem' }}>About</Link>
+          <Link href="/contact" style={{ ...linkStyle('/contact'), fontSize: '0.95rem' }}>Contact</Link>
         </div>
       )}
 

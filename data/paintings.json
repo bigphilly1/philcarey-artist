@@ -116,4 +116,17 @@
   "description": "Sydney from the water, the way it sits in your memory. The Opera House rising out of a green harbour, the city humming behind it.",
   "category": "Sydney"
 }
+{
+  "slug": "blue-mountains",           ← the URL, must match image filename
+  "title": "stuarts-tree",          ← displayed on the site
+  "medium": "Acrylic on canvas",   ← displayed on the site
+  "dimensions": "50 x 40 cm / 20 x 16 in",
+  "price": 600,                    ← original price in dollars
+  "printPrice": 120,               ← print price in dollars
+  "status": "available",           ← available or sold
+  "hero": false,                   ← true makes it the homepage hero
+  "image": "/images/manly-beach.jpg", ← must match filename exactly
+  "description": "Inspired by an image taken by our firiend Stuart near the house he and Carina own.",
+  "category": "Sydney"             ← groups paintings by location
+}
 ]
